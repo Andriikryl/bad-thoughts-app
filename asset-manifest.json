@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bad-thoughts-app/static/css/main.3f97302d.css",
+    "main.js": "/bad-thoughts-app/static/js/main.65a95969.js",
+    "static/js/787.06e3d833.chunk.js": "/bad-thoughts-app/static/js/787.06e3d833.chunk.js",
+    "index.html": "/bad-thoughts-app/index.html",
+    "main.3f97302d.css.map": "/bad-thoughts-app/static/css/main.3f97302d.css.map",
+    "main.65a95969.js.map": "/bad-thoughts-app/static/js/main.65a95969.js.map",
+    "787.06e3d833.chunk.js.map": "/bad-thoughts-app/static/js/787.06e3d833.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f97302d.css",
+    "static/js/main.65a95969.js"
+  ]
+}
