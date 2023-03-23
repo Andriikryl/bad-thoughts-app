@@ -4,6 +4,9 @@ import { useState } from "react";
 import CustomForm from "./compoonents/CustomForm";
 import OneThing from "./compoonents/OneThing";
 
+import JSConfetti from "js-confetti";
+const jsConfetti = new JSConfetti();
+
 function getSuccesMessage() {
   const message = [
     "Great job",
@@ -27,9 +30,15 @@ function App() {
     setThing(e.target.value);
   };
 
-  const handleCompletedThing = (e) => {
+  const handleCompletedThing = async (e) => {
     e.target.setAttribute("disabled", true);
     setThing(getSuccesMessage(e));
+    await jsConfetti.addConfetti({
+      emojis: ["🦄", "💫", "🌸"],
+    });
+    e.target.removeAttribute("disabled");
+    setThing("");
+    setIsCompleted(true);
   };
 
   return (

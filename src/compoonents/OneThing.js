@@ -6,7 +6,7 @@ function OneThing({ thing, handleCompletedThing }) {
     <>
       <h1 className="text-3xl sm:text-6xl font-bold">{thing}</h1>
       <CustomButton
-        text="Mark Done"
+        text="leave it "
         handleCompletedThing={handleCompletedThing}
       />
     </>
